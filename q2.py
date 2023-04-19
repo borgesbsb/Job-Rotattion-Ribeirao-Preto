@@ -1,4 +1,3 @@
-# Esta Função verifica se o número pertence à sequência de Fibonacci
 def verifica_fibonacci(n):
     a, b = 0, 1
     while b < n:
@@ -8,8 +7,12 @@ def verifica_fibonacci(n):
     else:
         return False
 
-#Aqui eu posso informar um número ou já defini-lo no código.
-num = int(input("Informe um número: "))
+opcao = input("Deseja inserir um número (S/N)? ")
+
+if opcao.lower() == "s":
+    num = int(input("Informe um número: "))
+else:
+    num = 144 # Valor padrão
 
 fibonacci = [0, 1]
 while fibonacci[-1] < num:
