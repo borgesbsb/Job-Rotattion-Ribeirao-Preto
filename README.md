@@ -60,6 +60,47 @@ b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mai
 
 c) Explique como chegou no resultado.
 
+>Inicialmente, podemos calcular o tempo que levará para que o carro e o caminhão se cruzem na rodovia. Como a distância entre as duas cidades é de 100 km >e os veículos estão se aproximando um do outro, podemos considerar que eles percorrerão juntos essa distância. Para calcular o tempo de encontro, usamos >a seguinte fórmula:
+
+>t = d / (v_carro + v_caminhão)
+
+>Onde:
+
+>t = tempo de encontro
+>d = distância a percorrer (nesse caso, 100 km)
+>v_carro = velocidade do carro (110 km/h)
+>v_caminhão = velocidade do caminhão (80 km/h)
+
+>Substituindo esses valores, temos:
+
+>t = 100 / (110 + 80)
+>t = 0,5 horas
+
+>Isso significa que o encontro entre o carro e o caminhão ocorrerá após 0,5 horas (ou 30 minutos) de viagem.
+
+>Agora, vamos considerar a questão dos pedágios. Como o carro possui tag de pedágio, ele não precisa parar nos pedágios. Já o caminhão, que não possui >essa facilidade, levará 5 minutos a mais para passar em cada um dos dois pedágios ao longo do caminho. Portanto, podemos calcular o tempo adicional que >o caminhão levará devido aos pedágios:
+
+>tempo_pedágios = 2 * 5 minutos = 10 minutos
+
+>Agora, precisamos saber qual a distância percorrida por cada veículo quando eles se encontrarem. Para isso, podemos usar a seguinte fórmula:
+
+>d_veículo = v_veículo * t
+
+>Onde:
+
+>d_veículo = distância percorrida pelo veículo
+>v_veículo = velocidade do veículo (no caso do carro, 110 km/h; no caso do caminhão, 80 km/h)
+>t = tempo de encontro (0,5 horas)
+
+>Substituindo esses valores, temos:
+
+>d_carro = 110 * 0,5 = 55 km
+>d_caminhão = 80 * 0,5 = 40 km
+
+>Isso significa que o carro estará a 45 km de Ribeirão Preto (100 km - 55 km percorridos) e o caminhão estará a 60 km de Ribeirão Preto (100 km - 40 km >percorridos) quando eles se cruzarem.
+
+>Portanto, concluímos que o carro estará mais próximo da cidade de Ribeirão Preto quando eles se encontrarem, já que estará a uma distância de 45 km, >enquanto o caminhão estará a uma distância de 60 km. Isso ocorre mesmo considerando o tempo adicional que o caminhão levará devido aos pedágios, pois a >diferença de distância percorrida pelos dois veículos é maior do que o tempo adicional que o caminhão levará devido aos pedágios.
+
 
 ## 5) Escreva um programa que inverta os caracteres de um string.
 
@@ -68,3 +109,7 @@ IMPORTANTE:
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 
 b) Evite usar funções prontas, como, por exemplo, reverse;
+
+https://github.com/borgesbsb/Job-Rotattion-Ribeirao-Preto/blob/main/q5.py
+
+
